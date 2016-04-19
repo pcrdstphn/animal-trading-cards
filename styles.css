@@ -1,1 +1,30 @@
-/* add your CSS here */
+body {
+	font-family:"OpenSans", sans-serif;
+}
+.card {
+	border: solid red;
+	box-shadow: 10px 5px 5px black;
+}
+
+.name {
+	color: blue;
+}
+figure {
+	width:300px;
+}
+
+.information{
+	border: solid #1A237E;
+}
+
+.fact {
+	font-style: italic;
+}
+
+.listitem {
+	font-style: italic;
+}
+
+.listlabel {
+	font-weight: bold;
+}
