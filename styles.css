@@ -1,43 +1,53 @@
+/**
+This stylesheet styles the animal-trading-card.
+This section styles the body and overall trading card
+**/
 body {
 	font-family:"OpenSans", sans-serif;
 	display: block;
 }
 .tradingcard {
-	border: solid red;
+	border: solid #1A237E;
 	box-shadow: 10px 5px 5px black;
 	width: 320px
 }
-
+/**
+this section styles the name at the top of the card
+*/
 .animalname {
 	color: blue;
 	padding-left: 10px;
 }
-
+/**
+this section styles the image and the caption
+**/
 figure {
 	width:300px;
 	margin: 10px;
 }
-
+figcaption {
+	font-size: x-small;
+}
+/**
+this section styles the information fact, list, 
+and description
+**/
 .information{
 	border: solid #1A237E;
 	margin: 10px;
 	padding: 10px;
 }
-
 .fact {
 	font-style: italic;
 }
-
 ul {
 	margin-left:0;
 	padding-left:0;
 }
-
 .listitem {
 	font-style: italic;
 	list-style: none;
 }
-
 .listlabel {
 	font-weight: bold;
 }
